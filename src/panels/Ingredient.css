@@ -1,0 +1,50 @@
+.section-ingredient .wrapper .images-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 6.18rem;
+}
+
+.section-ingredient .wrapper .images-wrapper .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.6rem;
+  height: 30.5rem;
+  margin-bottom: 1.5rem;
+  border: .2rem solid var(--gray);
+}
+
+.section-ingredient .wrapper .images-wrapper .active {
+  outline: 0.4rem solid #000;
+}
+
+.section-ingredient .wrapper .images-wrapper .content img {
+  width: 14rem;
+  margin-top: 5.4rem;
+}
+
+.section-ingredient .wrapper .images-wrapper .content .image-text {
+  position: absolute;
+  bottom: 1.6rem;
+  left: 1.06rem;
+  display: flex;
+  align-items: center;
+  font-family: AeroportMedium;
+  font-size: 2.03rem;
+}
+
+.section-ingredient .wrapper .images-wrapper .content .image-text span {
+  margin-top: -1.6rem;
+  margin-left: 1.6rem;
+}
+
+.section-ingredient .wrapper .actions {
+  margin-top: 7.25rem;
+  margin-bottom: 5.12em;
+}
+
+.section-ingredient .wrapper .actions .button-next .arrow {
+  width: 17.6rem;
+}

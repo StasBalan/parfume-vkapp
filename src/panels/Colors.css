@@ -1,0 +1,29 @@
+.colorpicker {
+  margin: 6.4rem auto 0 auto;
+}
+
+/* .colorpicker img {
+  width: 63.25rem;
+  height: 63.25rem;
+} */
+
+.color-block {
+  margin: 5.65rem auto 0 auto;
+  font-family: AeroportMedium;
+  font-size: 2.77rem;
+}
+
+.color-block .color {
+  width: 26.7rem;
+  height: 1.28rem;
+  margin-top: 1.92rem;
+  background-color: #000;
+}
+
+.section-color .wrapper .actions {
+  margin-top: 0;
+}
+
+.section-color .wrapper .actions .button-next .arrow {
+  width: 17.6rem;
+}

@@ -1,0 +1,31 @@
+.home .wrapper .home-text {
+  flex-grow: 1;
+  margin-top: 16.62rem;
+  font-family: AeroportMedium;
+  font-size: 8.43rem;
+  line-height: 8.85rem;
+}
+
+main .wrapper .actions {
+  flex-shrink: 0;
+}
+
+main .wrapper .actions {
+  justify-content: flex-end;
+  margin-bottom: 5.12em;
+}
+
+main .wrapper .actions .button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+main .wrapper .actions .button-next .arrow {
+  width: 17.6rem;
+}
+
+main .wrapper .actions .button-next .button-text {
+  font-family: AeroportMedium;
+  margin-top: -1rem;
+}

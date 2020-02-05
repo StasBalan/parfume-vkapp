@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Aeroport; 
+  src: url(../fonts/Aeroport.ttf);
+}
+
+@font-face {
+  font-family: AeroportBold; 
+  src: url(../fonts/Aeroport-Bold.ttf);
+}
+
+@font-face {
+  font-family: AeroportMedium; 
+  src: url(../fonts/Aeroport-Medium.ttf);
+}
+
+@font-face {
+  font-family: AeroportLight; 
+  src: url(../fonts/Aeroport-Light.ttf);
+}
+
+@font-face {
+  font-family: AeroportItalic; 
+  src: url(../fonts/Aeroport-Italic.ttf);
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #afafaf;
+  --image-border: #acacac;
+}
+
+html {
+  font-size: calc(100vw / 80);
+}
+
+.View__header {
+  display: none;
+}
+
+.View__panel-in {
+  background: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 69.3rem;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.section-content-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 69.3rem;
+  /* height: 100%; */
+  margin: 0 auto;
+}
+
+.section-content-bottom {
+  flex-grow: 1;
+  width: 69.3rem;
+  /* height: 100%; */
+  margin: 0 auto;
+}
+
+.counter-page {
+  display: flex;
+  align-items: center;
+  margin-top: 11rem;
+  margin-bottom: 2.83rem;
+  font-family: AeroportItalic;
+  font-size: 2.8rem;
+}
+
+.counter-page .start {
+  font-weight: bold;
+  margin-right: 2.3rem;
+}
+
+.counter-page .dash {
+  display: block;
+  width: 7.46rem;
+  height: 0.4rem;
+  margin-right: 2.3rem;
+  margin-top: 1.3rem;
+  background: var(--black);
+}
+
+.counter-page .end {
+  color: var(--gray);
+}
+
+.text {
+  font-family: AeroportMedium;
+  font-size: 6.61rem;
+  line-height: 6.29rem;
+}
+
+section .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-grow: 1;
+  width: 69.3rem;
+  margin: 17.2rem auto 5.12em auto;
+}
+
+section .actions .button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+section .actions .button-next .button-text {
+  margin-right: 2.14rem;
+}
+
+section .actions .back-button .button-text {
+  margin-left: 2.14rem;
+}
+
+section .actions .button .button-text {
+  font-family: AeroportMedium;
+  font-size: 2.78rem;
+  margin-top: -1rem;
+}
+
+section .actions .back-button .arrow {
+  width: 17.6rem;
+  transform: rotate(180deg);
+}
